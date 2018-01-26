@@ -11,3 +11,7 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+
+notify:
+  webhooks:
+  - url: https://webhooks.datocms.com/3e6d09b7e0fcddafa610/deploy-results
